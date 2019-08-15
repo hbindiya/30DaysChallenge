@@ -1,46 +1,44 @@
 html {
-    font-size: 10px;
-    background: url(https://wpmisc.com/sites/default/files/wallpaper/abstract/65967/bokeh-hd-wallpapers-65967-728873.png) bottom center;
-    background-size: cover;
-  }
-  body,html {
-    margin: 0;
-    padding: 0;
-  }
-  .keys {
-    display: flex;
-    flex: 1;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
-  }
-  .key {
-    border: .4rem solid black;
-    border-radius: .5rem;
-    margin: 1rem;
-    font-size: 1.5rem;
-    padding: 1rem .5rem;
-    transition: all .07s ease;
-    width: 10rem;
-    text-align: center;
-    color: white;
-    background: rgba(0,0,0,0.4);
-    text-shadow: 0 0 .5rem black;
-  }
-  .playing {
+  font-size: 10px;
+  background: url(https://wpmisc.com/sites/default/files/wallpaper/abstract/65967/bokeh-hd-wallpapers-65967-728873.png) bottom center;
+  background-size: cover;
+}
+body,html {
+  margin: 0;
+  padding: 0;
+}
+.keys {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.key {
+  border: .4rem solid black;
+  border-radius: 20px;
+  margin: 18px;
+  font-size: 24px;
+  padding: 18px 8px;
+  transition: all .07s ease;
+  width: 150px;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 5px 10px 8px black;
+}
+.playing {
     transform: scale(1.1);
-    border-color: #ffc600;
-    box-shadow: 0 0 1rem #ffc600;
+    border-color: #fbff00;
+    box-shadow: 0 0 1rem #00ff0d;
   }
-  
   kbd {
     display: block;
-    font-size: 4rem;
+    font-size: 50px;
   }
-  
+   
   .sound {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    color: #ffc600;
+    color: #fffb00;
   }
